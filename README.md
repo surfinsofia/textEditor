@@ -3,7 +3,7 @@
   Text Editor
   
   ## Description
-  Text Editor is a single-page app that runs in the browser. It also functions offline. 
+  Text Editor is a single-page app that runs in the browser. It also functions offline. Uses node.js, express, JavaScript
  
 
   ## Table of Contents
@@ -15,10 +15,12 @@
   6. [Questions](#Questions)
 
   ## Installation
-  git clone, 
+  git clone, run npm i, run npm run start:dev
+
 
   ## Usage
-  Edit text from the CLI with or without internet connection
+  run npm run start
+  then open Insomnia and type http://localhost:3000/ to run this application on your local machine.
 
   ## License
   None
@@ -27,7 +29,9 @@
   Contributors Welcome
 
   ## Tests
-  
+  To run tests on the application, run
+  npm install jest
+  and then npm run test from the command line.
 
   ## Questions
   https://github.com/surfinsofia
